@@ -141,9 +141,17 @@ footer a img{
     }
 }
 #s2{
-    background-image: url('../assets/images/garage.webp');
-    background-repeat: no-repeat;
-    background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('../assets/images/');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat:  no-repeat;
+  background-size: cover;
+  flex-wrap: wrap;
+  gap: 50px;
+  min-height: 70vh;
 }
 
 #s3{
